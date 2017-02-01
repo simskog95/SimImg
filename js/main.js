@@ -42,6 +42,7 @@ function clearView() {
 	document.getElementById("view").innerHTML = "";
 }
 
+//load array of image data. newest
 function loadNew() {
 	
 	clearView();
@@ -63,7 +64,7 @@ function loadNew() {
 	
 }
 
-//runs when sites laod.
+//runs when sites laod and when Popular is pressed, loads aray of popular images
 function initiateSite() {
 	
 	clearView();
@@ -82,10 +83,5 @@ function initiateSite() {
 		  document.getElementById("view").innerHTML = "<h1>ERROR, see console log</h1>";
 		}
     });
-	
-}
-
-function loadSearch() {
-	alert(document.getElementById("searchInput").value);
 	
 }
