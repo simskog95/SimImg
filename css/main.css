@@ -1,0 +1,57 @@
+/*writen by Simon Skoglund*/
+body {
+	padding-top: 70px;
+	height: 100%;
+	background-color: #7f7f7f;
+}
+
+#view {
+	margin: 10px;
+	text-align: center;
+}
+
+.imgBox {
+	text-align: left;
+	margin-bottom: 5px;
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 450px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 3px;
+	border-color: #494949;
+	background-color: #bdbdbd;
+	display: inline-block;
+}
+
+h1.imgBox {
+	margin-top: 1px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.imgBoxImg {
+	width: 100%;
+	height: 450px;
+	background-size: cover;
+}
+
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: black;
+}
+a:active {
+	color: black;
+}
+
+@media screen and (max-width: 767px) {
+	.imgBox{
+		width: 100%;
+		height: auto;
+	}
+}
