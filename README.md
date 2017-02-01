@@ -9,4 +9,5 @@
   * javascript
   * bootstrap
   * jQuery
+
 #####Communication with imgur is preformed with their API. https://api.imgur.com/ The plan was to allow full acces to imgur trough this application, view comment and albums etc. However, their API does not allow a lot of api calls within certain amount of time, witch slows down development. The UI could use a overhaul.
